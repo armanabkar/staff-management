@@ -3,7 +3,7 @@
 Staff Management CRUD app built with React, Redux and ASP.NET Core.
 
 <h2 align="center">
-  <img src="https://github.com/armanabkar/eCommerce_MERN/blob/master/screenshots/HomePage.png" alt="StaffManagement" width="600px" />
+  <img src="https://github.com/armanabkar/staff-management/blob/master/screenshot.png" alt="StaffManagement" width="600px" />
   <br>
 </h2>
 
