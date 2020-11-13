@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "/home/arman/Desktop/staff-management/WebAPI/WebAPI/WebAPI.csproj": {}
   },
   "projects": {
-    "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "/home/arman/Desktop/staff-management/WebAPI/WebAPI/WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "/home/arman/Desktop/staff-management/WebAPI/WebAPI/WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Shamseer\\.nuget\\packages\\",
-        "outputPath": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "/home/arman/Desktop/staff-management/WebAPI/WebAPI/WebAPI.csproj",
+        "packagesPath": "/home/arman/.nuget/packages/",
+        "outputPath": "/home/arman/Desktop/staff-management/WebAPI/WebAPI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Shamseer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +48,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -78,6 +77,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
         }
       }
     }

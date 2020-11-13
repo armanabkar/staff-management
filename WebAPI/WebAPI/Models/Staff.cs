@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Models
 {
-    public class DCandidate
+    public class Staff
     {
         [Key]
         public int id { get; set; }
 
-        [Column(TypeName ="nvarchar(100)")]
+        [Column(TypeName = "nvarchar(100)")]
         public string fullName { get; set; }
 
         [Column(TypeName = "nvarchar(16)")]
@@ -23,8 +23,8 @@ namespace WebAPI.Models
 
         public int age { get; set; }
 
-        [Column(TypeName = "nvarchar(3)")]
-        public string bloodGroup { get; set; }
+        [Column(TypeName = "nvarchar(16)")]
+        public string salary { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
         public string address { get; set; }

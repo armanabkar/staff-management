@@ -7,7 +7,7 @@ using WebAPI.Models;
 
 namespace WebAPI.Migrations
 {
-    [DbContext(typeof(DonationDBContext))]
+    [DbContext(typeof(StaffDBContext))]
     partial class DonationDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -31,8 +31,8 @@ namespace WebAPI.Migrations
                     b.Property<int>("age")
                         .HasColumnType("int");
 
-                    b.Property<string>("bloodGroup")
-                        .HasColumnType("nvarchar(3)");
+                    b.Property<string>("salary")
+                        .HasColumnType("nvarchar(16)");
 
                     b.Property<string>("email")
                         .HasColumnType("nvarchar(100)");
